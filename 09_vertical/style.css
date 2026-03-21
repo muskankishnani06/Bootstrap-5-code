@@ -1,0 +1,20 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border: 2px solid red;
+    height: 500px;
+}
+.col-md-4{
+    border: 2px solid gray;
+    /* height: 200px; */
+}
+.column-1{
+    background-color: aqua;
+}
+.column-2{
+    background-color: aquamarine;
+}
+.column-3{
+    background-color: blue;
+}

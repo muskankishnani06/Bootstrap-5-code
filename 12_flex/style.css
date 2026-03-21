@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid black;
+    
+   
+}
+.row{
+    border: 2px dotted gray;
+    
+}
+.col-md-4{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+}
+.specific-row{
+    height: 600px;
+}

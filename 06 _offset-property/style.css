@@ -1,0 +1,15 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border: 1px solid gray;
+}
+.col-md-4{
+    border: 1px solid gray;
+}
+.col-md-2{
+    border: 2px solid black;
+}
+.col-md-1{
+    border: solid black;
+}5

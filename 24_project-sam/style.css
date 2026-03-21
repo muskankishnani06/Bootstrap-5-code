@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0A0A0A;
+    color: white;
+}
+.navbar{
+    background-color: rgb(10, 10, 10);
+}
+.navbar-brand{
+    color: white;
+}
+.nav-item:hover{
+    background-color: rgb(127, 183, 212);
+    border-radius: 10px;
+}
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+}
+.icon{
+    font-size: 4rem;
+}
+.card{
+    background-color: #111111;
+    color: white;
+    border-radius: 20px;
+ 
+    /* height: 40vh;
+    width: 12vw; */
+    transition: 0.5s;
+
+}
+.card:hover{
+    scale: 1.1;
+    border: rgb(53, 167, 208);  
+}
+
+.mobile{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+        background: linear-gradient(135deg, #0b1a4a, #050810);
+    height: 28vh;
+}
+button{
+    border-radius: 50px !important;
+    font-size: 12px !important;
+}
+small{
+    font-size: 12px;
+}
+.watch{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+        background: linear-gradient(135deg, #0d2a1a, #050a08);
+    height: 28vh;
+}
+#products{
+    background-color: #111111;
+}
+.tv{
+    background: linear-gradient(135deg, #1a0b0b, #0a0506);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 28vh;
+}
+.buds{
+    background: linear-gradient(135deg, #1a1a0b, #0a0a05);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 28vh;
+}
+.tab{
+    background: linear-gradient(135deg, #0b1a1a, #050a0a);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 28vh;
+}
+.fold{
+    background: linear-gradient(135deg, #1a0b1a, #0a050a);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 28vh;
+}
+.fridge{
+    background: radial-gradient(ellipse at center, #1a1a0b 0%, #0a0a05 100%);
+     border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 28vh;
+}
+.card img{
+    height: 21vh;
+
+}
+#support{
+     background-color: #111111;
+}

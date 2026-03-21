@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1 class="text-center">Form</h1>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="enter your name">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <label for="name" class="form-lable">Name</label>
+                        <input class="form-control" type="text" placeholder="enter your name">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                    <label for="email" class="form-lable">E-mail</label>
+                    <input class="form-control" type="E-mail" placeholder="Enter your email">
+                     </div>
+                </form>
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                    <label for="email" class="form-lable">E-mail</label>
+                    <input class="form-control" type="E-mail" value="muskan@gmail.com" readonly>
+                     </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <label for="number" class="fom-lable">Number</label>
+                        <input type="number" class="form-control">
+                        <small class="form-text text-muted">+91 only</small>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <input type="checkbox" class="form-check-input">
+                        <label for="check" class="form-check-lable">i agree with terms and conditions</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <input type="radio" class="form-check-input" name="answer">
+                        <label for="check" class="form-check-lable">Yes</label>
+                         <input type="radio" class="form-check-input" name="answer">
+                        <label for="check" class="form-check-lable">No</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                <div class="m-3">
+                     <label for="city" class=" form-lable form-lable-lg">city</label>
+                    <input type="text" class=" form-control form-control-lg" placeholder="enter your city">
+                </div>
+            </form>
+        </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                <div class="m-3">
+                    <label for="city" class="form-lable">city</label>
+                    <input type="text" class="form-control" placeholder="enter your city">
+                </div>
+                </form>
+                </div>
+            </div>
+        
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                    <label for="city" class="form-lable form-lable-lg">city</label>
+                    <input type="text" class=" form-control form-control-sm" placeholder="enter your city">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="m-3">
+                    <input type="text" list="datalist" placeholder="search" class="form-control">
+                    <datalist id="datalist">
+                        <option value="mumbai">mumbai</option>
+                        <option value="delhi">delhi</option>
+                        <option value="goa">goa</option>
+                        <option value="chennai">chennai</option>
+                    </datalist>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                         <label for="address" class="form-lable">Address</label>
+                        <textarea name="address" rows="5" cols="5" class="form-control" placeholder="Enter address"></textarea>   
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <!----floating----->
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3 form-floating">
+                        <input type="password" placeholder="Enter your password" id="floatinginput" name="password" class="form-control">
+                        <label for="floatinginput">Password</label>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                    <label for="range">Range</label>
+                        <input type="range" class="form-range">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="m-3">
+                        <label for="file">File</label>
+                        <input type="file" class="form-control form-file">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

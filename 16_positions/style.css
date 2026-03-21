@@ -1,0 +1,11 @@
+.container{
+    height: 1500px;
+    border: 2px solid black;
+}
+.row{
+    border: 2px solid grey;
+}
+.col-md-4{
+    border: 2px solid red;
+    height: 500px;
+}

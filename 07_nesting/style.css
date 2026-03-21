@@ -1,0 +1,12 @@
+.container{
+    border: 2px solid black;
+}
+.row{
+    border: 3px solid gray;
+}
+.col-md-6{
+   border: 5px solid saddlebrown; 
+}
+.col-md-4{
+    border: 2px solid black;
+}
