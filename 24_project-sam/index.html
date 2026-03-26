@@ -180,7 +180,7 @@
                 
                     <div class="row ">
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50" >
                                <p class="display-1 text-center p-3 mobile"> <button class="btn bg-primary text-light fw-bold d-flex justify-content-start align-items-start">Galaxy AI</button> <img src="./asset/s26.png" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">smartphones</p>
@@ -194,7 +194,7 @@
                               </div>
 
                                <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50" >
                                <p class="display-1 text-center p-3 watch"> <button class="btn bg-primary text-light fw-bold d-flex justify-content-start align-items-start">New</button><img src="./asset/watch.png" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">Wearables</p>
@@ -208,7 +208,7 @@
                               </div>
 
                         <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50" >
                                <p class="display-1 text-center p-3 tv "> <button class="btn bg-danger text-light fw-bold d-flex justify-content-start align-items-start">HOT</button><img src="./asset/tv.png" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">TV & AV</p>
@@ -224,7 +224,7 @@
 
                          <div class="row">
                             <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50">
                                <p class="display-1 text-center p-3 buds "> <button class="btn bg-success text-light fw-bold d-flex justify-content-start align-items-start">SALE</button><img src="./asset/buds.png" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">Audio</p>
@@ -238,7 +238,7 @@
                               </div>
 
                                   <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50">
                                <p class="display-1 text-center p-3 tab "> <button class="btn bg-primary text-light fw-bold d-flex justify-content-start align-items-start">NEW</button><img src="./asset/tablet.avif" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">Tablets</p>
@@ -252,7 +252,7 @@
                               </div>
 
                                   <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card mt-5 border-secondary border-opacity-50" style="width: 25rem;">
+                            <div class="card mt-5 border-secondary border-opacity-50">
                                <p class="display-1 text-center p-3 fold"> <button class="btn bg-primary text-light fw-bold d-flex justify-content-start align-items-start">Galaxy AI</button><img src="./asset/samsung-galaxy-z-fold-6.png" alt=""></p>
                                 <div class="card-body">
                                     <p class="text-info text-uppercase">Foldables</p>
@@ -268,13 +268,38 @@
                 </div>
             </section>
 
+
+                          
+
             <section id="Universe">
                <div class="container mt-5 text-center">
                 <h6 class="text-uppercase text-info">Discover the lineup</h6>
                  <p class="fw-bolder display-5">Explore<span class="text-info">Galaxy Universe</span></p>
-                 <div class="row mt-5">
-                    <div class="col">
-                        <div class="card" style="width: 25rem;">
+                 <div class="col d-flex justify-content-center align-items-center">
+                      <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Mobile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Wearables</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Home</button>
+                </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"></div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+                </div>
+                 </div>
+                 <div class="row mt-5 d-flex justify-content-center align-items-center gap-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
                     <p class="display-1 text-center p-3 mobile"><img src="./asset/s26.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Galaxy S25 Series</p>
@@ -284,8 +309,8 @@
                     </div>
 
 
-                    <div class="col">
-                        <div class="card" style="width: 25rem;">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
                     <p class="display-1 text-center p-3 watch"><img src="./asset/watch.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Galaxy Watch 7</p>
@@ -295,7 +320,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card" style="width: 25rem;">
+                        <div class="card">
                     <p class="display-1 text-center p-3 tv"><img src="./asset/tv.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Neo QLED 8K</p>
@@ -305,9 +330,9 @@
                     </div>
                 </div>
 
-                    <div class="row mt-5">
-                    <div class="col">
-                        <div class="card" style="width: 25rem;">
+                    <div class="row mt-5 d-flex justify-content-center align-items-center gap-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card" >
                     <p class="display-1 text-center p-4 fold"><img src="./asset/samsung-galaxy-z-fold-6.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Galaxy Z Fold 6</p>
@@ -317,8 +342,8 @@
                     </div>
 
 
-                    <div class="col">
-                        <div class="card" style="width: 25rem;">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
                     <p class="display-1 text-center p-3 buds"><img src="./asset/buds.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Galaxy Buds 3 Pro</p>
@@ -328,7 +353,7 @@
                     </div>
 
                     <div class="col">
-                        <div class="card" style="width: 25rem;">
+                        <div class="card" >
                     <p class="display-1 text-center p-3 fridge"><img src="./asset/fridge.png" alt=""></p>
                         <div class="card-body text-start">
                             <p class="card-text">Family Hub Fridge</p>
@@ -342,7 +367,7 @@
 
             <section id="explore">
                 <div class="container-fluid mt-5">
-                    <div class="row bg-primary">
+                    <div class="row bg-primary ">
                         <div class="col text-center p-5">
                             <h1>✨</h1>
                             <h1>Experience Galaxy AI</h1>
@@ -461,12 +486,12 @@
         <footer>
             <div class="container mt-5">
                 <div class="row d-flex">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 mt-3">
                         <a class="navbar-brand fw-bold fs-3" href="#">SAMSUNG<span class="text-info fs-2">.</span></a>
                         <p class="text-secondary">Unfold the Future</p>
                         <p>Inspiring the world with innovative technology, exceptional designs, and meaningful experiences.</p>
                         <div >
-                            <button class=" btn bg-transparent text-secondary border pt-3  border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
+                            <button class=" btn bg-transparent text-secondary border pt-3  border-secondary btn-action"><i class="fa-solid fa-mobile-screen"></i></button>
                             <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
                             <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
                             <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
@@ -474,8 +499,8 @@
                         </div>
                     </div>
 
-                    <div class="col  lh-lg">
-                        <p class=" head fw-bold text-info list-group-item  border-secondary text-uppercase">Produts</p>
+                    <div class="col lh-lg mt-5">
+                        <p class=" head fw-bold text-info list-group-item  border-secondary text-uppercase">Products</p>
                         <div class="link text-secondary">
                         <a href="" class="list-group-item list-group-item-action" >Galaxy Mobile</a>
                          <a href="" class="list-group-item list-group-item-action">Galaxy Watch</a>
@@ -486,7 +511,7 @@
                         </div>
                  </div>
 
-                  <div class="col lh-lg">
+                  <div class="col lh-lg mt-5">
                         <p class=" head fw-bold text-info list-group-item border-secondary text-uppercase">Support</p>
                         <div class="link text-secondary">
                         <a href="" class="list-group-item list-group-item-action" >FAQ</a>
@@ -497,11 +522,11 @@
                         </div>
                  </div>
 
-                  <div class="col-md-4 d-flex flex-column  ">
-                        <h6 class="text-info list-group-item  border-secondary text-uppercase">Stay Connected</h6>
+                  <div class="col-md-4 d-flex flex-column mt-5 ">
+                        <p class="head fw-bold text-info list-group-item  border-secondary text-uppercase">Stay Connected</p>
                        <p>Get the latest Samsung news, deals, and product launches in your inbox.</p>
 
-                       <div class=" hero d-flex border border-secondary border-opacity-25 p-2" >
+                       <div class=" hero d-flex border border-secondary border-opacity-25 p-2 justify-content-between" >
                         <i class="fa-solid fa-mobile-screen pt-3"></i>
                         <input type="email" class=" hero-input border-0 p-2" placeholder="your@email.com">
                         <button type="button" class="btn btn-primary">Subscribe</button>
@@ -514,8 +539,8 @@
             <div class="container mt-5">
                 <hr>
                 <div class="row ">
-                    <div class="col">
-                        <p class="text-secondary">© 2026 Samsung Electronics Co., Ltd. All rights reserved.</p>
+                    <div class="col-md-4">
+                        <p class="text-secondary">&copy 2026 Samsung Electronics Co., Ltd. All rights reserved.</p>
                     </div>
                         <div class="col">
                         <ul class="d-flex gap-3 text-secondary float-end">

@@ -17,9 +17,9 @@ body{
     background-color: rgb(127, 183, 212);
     border-radius: 10px;
 }
-.carousel-item{
-    height: 100vh;
-    width: 100%;
+.carousel-item img{
+   min-height: 100vh;
+    max-width: 100%;
 }
 .icon{
     font-size: 4rem;
@@ -92,7 +92,7 @@ small{
     height: 28vh;
 }
 .card img{
-    height: 21vh;
+    height: 20vh;
 
 }
 #Questions{
@@ -102,11 +102,7 @@ small{
 
     background-color: #1A1A1A;
     color: white;
-    border-radius: 10px;
-    width: ;
-    
-
-   
+    border-radius: 10px; 
 }
 .accordion-button{
 
@@ -116,9 +112,7 @@ small{
 }
 .accordion-button:hover {
   background-color:#1A1A1A ;
-  border: #0dcaf0 !important;
-  
-
+  border: 2px #0dcaf0 !important;
 }
 
 .accordion-button:not(.collapsed) {
@@ -133,7 +127,6 @@ small{
 .hero{
     border-radius: 15px;
     background-color :#111111;
-    width: 22vw;
 
 }
 .hero-input{
