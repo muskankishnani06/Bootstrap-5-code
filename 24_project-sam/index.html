@@ -275,29 +275,26 @@
                <div class="container mt-5 text-center">
                 <h6 class="text-uppercase text-info">Discover the lineup</h6>
                  <p class="fw-bolder display-5">Explore<span class="text-info">Galaxy Universe</span></p>
-                 <div class="col d-flex justify-content-center align-items-center">
-                      <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Mobile</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Wearables</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Home</button>
-                </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0"></div>
-                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
-                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
-                <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
-                </div>
-                 </div>
-                 <div class="row mt-5 d-flex justify-content-center align-items-center gap-3">
+                 <div class="col">
+                      <ul class="nav nav-tabs d-flex justify-content-center align-items-center border border-2 border-secondary rounded-5" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link text-secondary bg-primary text-light border border-2 rounded-pill" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">All</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link text-secondary" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Mobiles</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link text-secondary" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">Wearables</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link text-secondary" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">home</button>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+    <div class="row mt-5 d-flex justify-content-center align-items-center gap-3">
                     <div class="col-12 col-md-6 col-lg-4">
                         <div class="card">
                     <p class="display-1 text-center p-3 mobile"><img src="./asset/s26.png" alt=""></p>
@@ -362,7 +359,93 @@
                         </div>
                     </div>
                 </div>
-            </div>
+  
+  </div>
+  <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+     <div class="row mt-5 d-flex justify-content-center align-items-center gap-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                    <p class="display-1 text-center p-3 mobile"><img src="./asset/s26.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Galaxy S25 Series</p>
+                            <p class="text-secondary">From ₹79,999</p>
+                        </div>
+                        </div>
+                    </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card" >
+                    <p class="display-1 text-center p-4 fold"><img src="./asset/samsung-galaxy-z-fold-6.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Galaxy Z Fold 6</p>
+                            <p class="text-secondary">From ₹1,64,999</p>
+                        </div>
+                        </div>
+                    </div>
+                     </div>
+                     
+  </div>
+  <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+    <div class="row mt-5 d-flex justify-content-center align-items-center gap-4">
+    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                    <p class="display-1 text-center p-3 buds"><img src="./asset/buds.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Galaxy Buds 3 Pro</p>
+                            <p class="text-secondary">From ₹17,999</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                    <p class="display-1 text-center p-3 watch"><img src="./asset/watch.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Galaxy Watch 7</p>
+                            <p class="text-secondary">From ₹32,999</p>
+                        </div>
+                        </div>
+                    </div>
+    </div>
+  </div>
+  <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+
+     <div class="row mt-5 d-flex justify-content-center align-items-center gap-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card">
+                    <p class="display-1 text-center p-3 mobile"><img src="./asset/s26.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Galaxy S25 Series</p>
+                            <p class="text-secondary">From ₹79,999</p>
+                        </div>
+                        </div>
+                    </div>
+    <div class="col">
+                        <div class="card" >
+                    <p class="display-1 text-center p-3 fridge"><img src="./asset/fridge.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Family Hub Fridge</p>
+                            <p class="text-secondary">From ₹89,990</p>
+                        </div>
+                        </div>
+                    </div>
+
+                     <div class="col">
+                        <div class="card">
+                    <p class="display-1 text-center p-3 tv"><img src="./asset/tv.png" alt=""></p>
+                        <div class="card-body text-start">
+                            <p class="card-text">Neo QLED 8K</p>
+                            <p class="text-secondary">From ₹2,99,990</p>
+                        </div>
+                        </div>
+                    </div>
+  </div>
+</div>
+  </div>
+</div>
+                 </div>
+               </div>
             </section>
 
             <section id="explore">
@@ -401,7 +484,7 @@
                                     <h6> <span>📦</span>What is Samsung's return policy?</h6>
                                 </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse " >
+                                <div id="collapseOne" class="accordion-collapse collapse show" >
                                 <div class="accordion-body mt-4 text-secondary">
                                 <p>Samsung offers a 7-day replacement policy on all products purchased through Samsung.com. If the product is defective or damaged, you can raise a replacement request within 7 days of delivery. Refunds are processed within 7–10 business days.</p>
                                 </div>
@@ -491,11 +574,11 @@
                         <p class="text-secondary">Unfold the Future</p>
                         <p>Inspiring the world with innovative technology, exceptional designs, and meaningful experiences.</p>
                         <div >
-                            <button class=" btn bg-transparent text-secondary border pt-3  border-secondary btn-action"><i class="fa-solid fa-mobile-screen"></i></button>
-                            <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
-                            <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
-                            <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
-                            <button class=" btn bg-transparent text-secondary border pt-3 border-secondary"><i class="fa-solid fa-mobile-screen"></i></button>
+                            <button class=" btn bg-transparent text-light border pt-3  border-secondary"><i class="fa-brands fa-instagram"></i></i></button>
+                            <button class=" btn bg-transparent text-light border pt-3 border-secondary"><i class="fa-brands fa-facebook-f"></i></button>
+                            <button class=" btn bg-transparent text-light border pt-3 border-secondary"><i class="fa-brands fa-twitter"></i></button>
+                            <button class=" btn bg-transparent text-light border pt-3 border-secondary"><i class="fa-brands fa-whatsapp"></i></button>
+                            <button class=" btn bg-transparent text-light border pt-3 border-secondary"><i class="fa-brands fa-linkedin-in"></i></i></button>
                         </div>
                     </div>
 
